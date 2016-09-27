@@ -18,7 +18,7 @@ var thatArray = ["Facebook Platform","Erlang Enthusiasts","Ex-Girlfriends",
 "Camp Counselors","Nature Blogs","World of Warcraft","Models","Family Guy Enthusiasts","The Army","Cheap Vodka","Tech Incubators","Star Trek Conventions","Presentation Tools","Small Businesses","Beer","Nightclub Lines","Semi-Active Volcanoes", "Sanctimonial Artifacts","Traveling Abroad","Your Mom","Billionaires","Happy Hours","Ugg Boots","The Homeless","Blacking Out","Red Wine","Happy Families","Social Outcasts",
 "Surgeons","Pounding Jagger Bombs","Textbooks","Coffee Shops","Baristas"];
 
-var thisIndex = Math.floor(Math.random() * (thisArray.length - 1));
-var thatIndex = Math.floor(Math.random() * (thatArray.length - 1));
+var thisIndex = Math.floor(Math.random() * (thisArray.length));
+var thatIndex = Math.floor(Math.random() * (thatArray.length));
 
 console.log("Your new startup is: " + thisArray[thisIndex] + " " + thatArray[thatIndex]);
